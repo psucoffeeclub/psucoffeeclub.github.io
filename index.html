@@ -1,5 +1,34 @@
 <!DOCTYPE HTML>
 <html>
+<style>
+@media (max-width: 550px) {
+   .big-container {
+       display: none;
+   }
+}
+@media (min-width: 550px) {
+   .small-container {
+       display: none;
+   }
+}
+/* Responsive iFrame */
+.responsive-iframe-container {
+   position: relative;
+   padding-bottom: 56.25%;
+   padding-top: 30px;
+   height: 0;
+   overflow: hidden;
+}
+.responsive-iframe-container iframe,   
+.vresponsive-iframe-container object,  
+.vresponsive-iframe-container embed {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+</style>
 	<head>
 		<title>The Penn State Coffee Club</title>
 		<meta charset="utf-8" />
@@ -115,7 +144,9 @@
 									<header class="major">
 										<h2>Meetings and Events</h2>
 									</header>
-									<iframe src="https://calendar.google.com/calendar/embed?height=450&wkst=1&bgcolor=%23795548&ctz=America%2FNew_York&showTitle=0&showNav=1&showDate=1&showPrint=0&showTabs=0&src=ZHJhemVub3ZpY2RlamFuQGdtYWlsLmNvbQ&color=%237986CB" style="border-width:0" width="600" height="450" frameborder="0" scrolling="no"></iframe>
+									<div class="responsive-iframe-container big-container">
+										<iframe src="https://calendar.google.com/calendar/embed?height=450&wkst=1&bgcolor=%23795548&ctz=America%2FNew_York&showTitle=0&showNav=1&showDate=1&showPrint=0&showTabs=0&src=ZHJhemVub3ZpY2RlamFuQGdtYWlsLmNvbQ&color=%237986CB" style="border-width:0" width="600" height="450" frameborder="0" scrolling="no"></iframe>
+									</div>
 								</div>
 							</section>
                         <!-- Three -->
