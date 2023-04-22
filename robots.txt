@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /index.html
+Allow: /officers.html
+Allow: /$
+Disallow: /assets
+Disallow: /css
+Disallow: /images
+Disallow: ./images
+Disallow: ../images
+Disallow: *.pdf
+Disallow: *.png
+Disallow: *.jpg
+Disallow: *.jpeg
+
+Sitemap: http://psucoffeeclub.com/sitemap.xml
